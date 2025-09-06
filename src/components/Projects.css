@@ -1,0 +1,12 @@
+#proj-container {
+    margin-top: 4vw;
+}
+
+#projects {
+
+    display: flex;
+    gap: 3vw;
+    flex-wrap: wrap;
+    padding: 3vw;
+    justify-content: space-evenly;
+}
