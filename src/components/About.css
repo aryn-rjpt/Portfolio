@@ -194,3 +194,30 @@
         box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
     }
 }
+
+
+@media (max-width: 720px) {
+    #about {
+        font-size: 2em;
+        height: 100vh;
+    }
+
+    #resume {
+        margin: 1rem 0rem 0rem -1rem;
+        scale: 0.7;
+    }
+
+}
+
+@media (max-width: 400px) {
+    #about {
+        font-size: 1.8em;        
+    }
+
+    #resume {
+        margin: 1rem 0rem 0rem -1rem;
+        scale: 0.7;
+        width: 13rem;
+    }
+
+}
