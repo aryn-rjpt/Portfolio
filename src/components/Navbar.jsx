@@ -1,4 +1,3 @@
-import React, { useEffect, useState } from "react";
 import "./Navbar.css";
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
@@ -10,22 +9,9 @@ import {
 
 import { faAtom } from "@fortawesome/free-solid-svg-icons";
 
-
-
 function Navbar() {
 
-  // const [navbarY, setNavbarY] = useState(0);
-
-  // useEffect(() => {
-
-  //   window.addEventListener("scroll", () => {
-  //     setNavbarY(window.scrollY);      
-  //   });
-
-  // }, []);
-
   return (
-    // <div className="navbar" style={{top: `calc(80vh + ${navbarY}px)`}}>
     <div className="navbar">
       <div className="nav-item">
         <a href="#about">

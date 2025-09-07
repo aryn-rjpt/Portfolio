@@ -17,7 +17,7 @@
 body {
   min-width: 320px;
   min-height: 100vh;
-  background: #fff url("./assets/bg.jpeg") no-repeat center center / cover fixed;
+  background: #fff url("./assets/bg.webp") no-repeat center center / cover fixed;
   animation: bg-blur;
   animation-timeline: scroll();
 }

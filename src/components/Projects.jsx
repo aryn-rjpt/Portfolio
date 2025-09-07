@@ -3,10 +3,10 @@ import React from 'react'
 import './Projects.css'
 import Card from './Card'
 
-import cleen from '../assets/projects/cleen.png'
-import aci from '../assets/projects/aci.png'
-import fyle from '../assets/projects/fyle.png'
-import bytebot from '../assets/projects/bytebot.jpeg'
+import cleen from '../assets/projects/cleen.webp'
+import aci from '../assets/projects/aci.webp'
+import fyle from '../assets/projects/fyle.webp'
+import bytebot from '../assets/projects/bytebot.webp'
 
 
 const Projects = () => {

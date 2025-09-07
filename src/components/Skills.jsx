@@ -12,7 +12,7 @@ import angular from "../assets/skills/angular-skill.svg";
 import java from "../assets/skills/java-skill.svg";
 import django from "../assets/skills/django-skill.svg";
 import jquery from "../assets/skills/jquery.svg";
-import handlebars from "../assets/skills/handlebars.png";
+import handlebars from "../assets/skills/handlebars.webp";
 import cpp from "../assets/skills/cpp-skill.webp";
 import js from "../assets/skills/js-skill.webp";
 import python from "../assets/skills/python-skill.webp";

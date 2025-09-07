@@ -9,7 +9,6 @@ import Loader from './components/Loader.jsx'
 
 function App() {  
 
-
   useEffect(() => {
     window.onload = function() {      
       const loader = document.querySelector('.spinner-container');
