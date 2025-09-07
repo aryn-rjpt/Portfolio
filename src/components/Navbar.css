@@ -8,9 +8,7 @@
     position: fixed;
     top: 80vh;
     left: 50%;
-    transform: translateX(-50%);
-    z-index: 1000;
-    /* transition: ease-in-out all 0.3s; */
+    transform: translateX(-50%);    
 }
 
 .nav-item a {
