@@ -39,39 +39,39 @@ const Skills = () => {
             >
 
                 <SwiperSlide className='skill-slide'>
-                    <img src={java} />
+                    <img src={java} alt='java'/>
                     <span >Java</span>
                 </SwiperSlide>
                 <SwiperSlide className='skill-slide'>
-                    <img src={angular} />
+                    <img src={angular} alt='angular'/>
                     <span >Angular</span>
                 </SwiperSlide>
                 <SwiperSlide className='skill-slide'>
-                    <img src={django} />
+                    <img src={django} alt='django'/>
                     <span >Django</span>
                 </SwiperSlide>
                 <SwiperSlide className='skill-slide'>
-                    <img src={jquery} />
+                    <img src={jquery} alt='jquery'/>
                     <span >jQuery</span>
                 </SwiperSlide>
                 <SwiperSlide className='skill-slide'>
-                    <img src={handlebars} />
+                    <img src={handlebars} alt='handlebars'/>
                     <span >Handlebars</span>
                 </SwiperSlide>
                 <SwiperSlide className='skill-slide'>
-                    <img src={cpp} />
+                    <img src={cpp} alt='cpp'/>
                     <span >C++</span>
                 </SwiperSlide>
                 <SwiperSlide className='skill-slide'>
-                    <img src={js} />
+                    <img src={js} alt='js'/>
                     <span >JavaScript</span>
                 </SwiperSlide>
                 <SwiperSlide className='skill-slide'>
-                    <img src={python} />
+                    <img src={python} alt='python'/>
                     <span >Python</span>
                 </SwiperSlide>
                 <SwiperSlide className='skill-slide'>
-                    <img src={web} />
+                    <img src={web} alt='web'/>
                     <span >Web Development</span>
                 </SwiperSlide>
             </Swiper>
