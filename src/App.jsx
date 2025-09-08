@@ -10,13 +10,21 @@ import Loader from './components/Loader.jsx'
 function App() {  
 
   useEffect(() => {
+    const loader = document.querySelector('.spinner-container');
     window.onload = function() {      
-      const loader = document.querySelector('.spinner-container');
       loader.style.opacity = 0;
       setTimeout(() => {
         loader.style.display = 'none';
       }, 1000);
     }
+    setTimeout(() => {
+      loader.style.opacity = 0;
+      setTimeout(() => {
+        loader.style.display = 'none';
+      }, 1000);
+    }, 7000);
+
+    
   }, [])
 
   return (
