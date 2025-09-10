@@ -8,7 +8,6 @@
 }
 
 #about span {
-    background: #020024;
     background: linear-gradient(342deg, rgba(2, 0, 36, 1) 0%, rgb(0 90 112) 19%, rgba(255, 255, 255, 1) 100%);
     background-clip: text;
     color: transparent;
@@ -200,24 +199,34 @@
     #about {
         font-size: 2em;
         height: 100vh;
+        line-height: 1.4em;
+        flex-direction: column;
+        align-items: center;
+        color: cornsilk;
+        text-shadow: 4px 4px 1px black;
+        padding-top: 3rem;
     }
 
-    #resume {
-        margin: 1rem 0rem 0rem -1rem;
+    #resume {                
+        margin: auto;
         scale: 0.7;
+        width: 20rem;
     }
 
-}
-
-@media (max-width: 400px) {
-    #about {
-        font-size: 1.8em;        
+    #about-left {
+        width: 100%;
+        text-align: center;
     }
 
-    #resume {
-        margin: 1rem 0rem 0rem -1rem;
-        scale: 0.7;
-        width: 13rem;
+    #about-right {
+        text-align: center;
+        width: 100%;
     }
+
+    #about span {
+        background: linear-gradient(342deg, rgb(255 255 255) 0%, rgb(255 255 255) 19%, rgb(4 205 205) 100%);
+        background-clip: text;
+    }
+
 
 }
