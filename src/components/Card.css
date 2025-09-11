@@ -7,7 +7,7 @@
 .card {
     height: 100%;
     border-radius: 50px;
-    background: linear-gradient(135deg, rgb(150 184 227) 0%, rgb(22 32 56) 100%);
+    background: linear-gradient(135deg, rgb(0 170 255) 0%, rgb(8 105 226) 100%);
     transition: all 0.5s ease-in-out;
     transform-style: preserve-3d;
     box-shadow: rgba(5, 71, 17, 0) 40px 50px 25px -40px, rgba(5, 71, 17, 0.2) 0px 25px 25px -5px;

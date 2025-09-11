@@ -3,12 +3,6 @@ import React from 'react'
 import './Projects.css'
 import Card from './Card'
 
-import cleen from '../assets/projects/cleen.webp'
-import aci from '../assets/projects/aci.webp'
-import fyle from '../assets/projects/fyle.webp'
-import bytebot from '../assets/projects/bytebot.webp'
-
-
 const Projects = () => {
 
     let myProjects = [
@@ -16,7 +10,6 @@ const Projects = () => {
             id: 1,
             title: "Cleen Foundation NGO",
             description: "A website for Cleen Foundation NGO using ReactJS, ExpressJs and Firebase",
-            image: cleen,
             initials: "CF",
             techStack: ["ReactJS", "ExpressJS", "Firebase"],
             projectUrl: "https://aryn-rjpt.github.io/cleen-foundation-ngo/",
@@ -26,7 +19,6 @@ const Projects = () => {
             id: 2,
             title: "Arts College of India",
             description: "A dummy college website built using Django and Bootstrap",
-            image: aci,
             initials: "ACI",
             techStack: ["Django", "Bootstrap"],
             projectUrl: "https://arynrjpt.pythonanywhere.com/",
@@ -36,7 +28,6 @@ const Projects = () => {
             id: 3,
             title: "Github Repos Viewer",
             description: "A web application to view GitHub repositories using AngularJS",
-            image: fyle,
             initials: "Git",
             techStack: ["AngularJS"],
             projectUrl: "https://aryn-rjpt.github.io/Github-Repos/",
@@ -46,7 +37,6 @@ const Projects = () => {
             id: 4,
             title: "Discord ByteBot",
             description: "A discord bot to track my societies' members and activities",
-            image: bytebot,
             initials: "DB",
             techStack: ["JavaScript", "Discord.js"]
         },
